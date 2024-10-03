@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Cloth - Shop</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #0d0d0d;
+            color: #f0f0f0;
+        }
+        header {
+            background-color: rgba(17, 17, 17, 0.8);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 20px rgba(0, 255, 204, 0.5);
+        }
+        .logo img {
+            height: 80px; /* Logo height */
+            width: auto;
+            text-shadow: 0 0 10px #00ffcc;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin-right: 15px;
+            font-size: 20px; /* Font size */
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #00ffcc;
+            text-shadow: 0 0 10px #00ffcc;
+        }
+        .container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        h2 {
+            font-size: 60px; /* Heading size */
+            color: #00ffcc;
+            text-shadow: 0 0 20px #00ffcc, 0 0 30px #ff0066;
+        }
+        .shop-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .shop-item {
+            background-color: rgba(17, 17, 17, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ff0066, 0 0 20px #ff0066;
+            transition: box-shadow 0.3s ease;
+        }
+        .shop-item:hover {
+            box-shadow: 0 0 20px #ff0066, 0 0 30px #ff0066;
+        }
+        .shop-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: rgba(17, 17, 17, 0.8);
+            padding: 20px;
+            text-align: center;
+            color: #777;
+            font-size: 16px;
+            box-shadow: 0 -4px 20px rgba(0, 255, 204, 0.5);
+        }
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            h2 {
+                font-size: 40px; /* Smaller heading on phones */
+            }
+            nav a {
+                font-size: 18px; /* Slightly smaller font for navigation */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Alex Cloth Logo"> <!-- Add your logo image here -->
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="shop.html" class="active">Shop</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Our Collection</h2>
+        <div class="shop-grid">
+            <!-- 25 Image Places -->
+            <div class="shop-item"><img src="cloth1.jpg" alt="Cloth 1"></div>
+            <div class="shop-item"><img src="cloth2.jpg" alt="Cloth 2"></div>
+            <div class="shop-item"><img src="cloth3.jpg" alt="Cloth 3"></div>
+            <div class="shop-item"><img src="cloth4.jpg" alt="Cloth 4"></div>
+            <div class="shop-item"><img src="cloth5.jpg" alt="Cloth 5"></div>
+            <div class="shop-item"><img src="cloth6.jpg" alt="Cloth 6"></div>
+            <div class="shop-item"><img src="cloth7.jpg" alt="Cloth 7"></div>
+            <div class="shop-item"><img src="cloth8.jpg" alt="Cloth 8"></div>
+            <div class="shop-item"><img src="cloth9.jpg" alt="Cloth 9"></div>
+            <div class="shop-item"><img src="cloth10.jpg" alt="Cloth 10"></div>
+            <div class="shop-item"><img src="cloth11.jpg" alt="Cloth 11"></div>
+            <div class="shop-item"><img src="cloth12.jpg" alt="Cloth 12"></div>
+            <div class="shop-item"><img src="cloth13.jpg" alt="Cloth 13"></div>
+            <div class="shop-item"><img src="cloth14.jpg" alt="Cloth 14"></div>
+            <div class="shop-item"><img src="cloth15.jpg" alt="Cloth 15"></div>
+            <div class="shop-item"><img src="cloth16.jpg" alt="Cloth 16"></div>
+            <div class="shop-item"><img src="cloth17.jpg" alt="Cloth 17"></div>
+            <div class="shop-item"><img src="cloth18.jpg" alt="Cloth 18"></div>
+            <div class="shop-item"><img src="cloth19.jpg" alt="Cloth 19"></div>
+            <div class="shop-item"><img src="cloth20.jpg" alt="Cloth 20"></div>
+            <div class="shop-item"><img src="cloth21.jpg" alt="Cloth 21"></div>
+            <div class="shop-item"><img src="cloth22.jpg" alt="Cloth 22"></div>
+            <div class="shop-item"><img src="cloth23.jpg" alt="Cloth 23"></div>
+            <div class="shop-item"><img src="cloth24.jpg" alt="Cloth 24"></div>
+            <div class="shop-item"><img src="cloth25.jpg" alt="Cloth 25"></div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Alex Cloth. All Rights Reserved.
+    </footer>
+</body>
+</html>
+
